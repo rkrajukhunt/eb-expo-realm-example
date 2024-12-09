@@ -6,6 +6,7 @@ specifiers:
   '@expo/vector-icons': ^14.0.2
   '@react-navigation/bottom-tabs': ^7.0.0
   '@react-navigation/native': ^7.0.0
+  '@realm/babel-plugin': ^0.2.0
   '@realm/react': ^0.11.0
   '@types/jest': ^29.5.12
   '@types/react': ~18.3.12
@@ -70,6 +71,7 @@ dependencies:
 
 devDependencies:
   '@babel/core': 7.26.0
+  '@realm/babel-plugin': 0.2.0
   '@types/jest': 29.5.14
   '@types/react': 18.3.14
   '@types/react-test-renderer': 18.3.1
@@ -2006,6 +2008,10 @@ packages:
     dependencies:
       nanoid: 3.3.7
     dev: false
+
+  /@realm/babel-plugin/0.2.0:
+    resolution: {integrity: sha512-n+lLIl03Pdwqsx486M8EBFcGcbDIvipm0bb8ihPXwGEOgeDlnuy9v4FAyRcgRe4SFN9zQ1vFNMDqFzBgk5Z2rA==}
+    dev: true
 
   /@realm/fetch/0.1.1:
     resolution: {integrity: sha512-hkTprw79RXGv54Je0DrjpQPLaz4QID2dO3FmthAQQWAkqwyrqMzrCGzJzLlmTKWZFsgLrN8KQyNewod27P+nJg==}
