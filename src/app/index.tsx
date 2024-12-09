@@ -50,6 +50,7 @@ export default function SignIn({
       />
       <View style={styles.buttonContainer}>
         <Button title="Login" onPress={handleLogin} />
+        <Button title="Todo" onPress={() => router.replace("/example")} />
       </View>
     </View>
   );

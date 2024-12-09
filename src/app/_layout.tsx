@@ -1,3 +1,4 @@
+import { RealmProvider } from "@realm/react";
 import { Stack } from "expo-router";
 export default function RootLayout() {
   return (
@@ -17,6 +18,17 @@ export default function RootLayout() {
           title: "Sign In",
         }}
       />
+
+      <RealmProvider>
+        <Stack.Screen
+          name="example"
+          options={{
+            headerShown: false,
+            title: "RealM DB",
+          }}
+        />
+      </RealmProvider>
+
       <Stack.Screen name="(app)" options={{ headerShown: false }} />
     </Stack>
   );
